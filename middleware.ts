@@ -1,7 +1,7 @@
 import { NextResponse, NextRequest } from "next/server";
 
 export const config = {
-  matcher: ["/((?!api|time).*)"],
+  matcher: ["/((?!api).*)"],
 };
 
 export default function middleware(request: NextRequest) {
